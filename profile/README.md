@@ -1,6 +1,6 @@
 # Verifica.AI
 
-Equipe dedicada ao desenvolvimento de um sistema web para **detecção de Fake News utilizando Inteligência Artificial**.  
+Equipe dedicada a facilitar a detecção de **_fake news_ políticas**.  
 Nosso objetivo atual é construir uma solução capaz de analisar e classificar conteúdos digitais, promovendo um ambiente informacional mais seguro e confiável.
 
 ---
@@ -9,6 +9,7 @@ Nosso objetivo atual é construir uma solução capaz de analisar e classificar 
 
 O projeto atual da Verifica.AI tem como foco principal:
 
+- Combater a desinformação, mitigando o impacto de **_fake news_ políticas**.
 - A criação de um **sistema inteligente de detecção de fake news** baseado em IA.   
 - A implementação de uma **plataforma web** que permita o envio de textos e arquivos para análise automatizada.  
 - A disponibilização de relatórios transparentes e acessíveis sobre a veracidade das informações.  
