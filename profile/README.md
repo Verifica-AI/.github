@@ -80,18 +80,6 @@ Esses usuários compartilham o mesmo objetivo: **verificar rapidamente a autenti
 
 ---
 
-## Tecnologias Principais
-
-- **Frontend:** React, HTML, CSS, JavaScript  
-- **Backend:** Python, Django
-- **IA / Machine Learning:** TensorFlow/Pytorch  
-- **Banco de Dados:** MongoDB (Atlas)  
-- **Autenticação:** JWT  
-- **Testes:** Postman  
-- **Metodologia:** Kanban (Trello)
-
----
-
 ## Licença
 
 Este projeto é desenvolvido para fins acadêmicos e de pesquisa no âmbito do **Projeto Integrador II — CEUB**,  
