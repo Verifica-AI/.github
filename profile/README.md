@@ -57,7 +57,7 @@ O modelo de IA é responsável por analisar textos, identificar padrões de desi
 
 ## Equipe
 
-| Nome | Função | LinkedIN |
+| Nome | Função | Contato |
 |------|--------|------------|
 | **Victor Albuquerque Cordeiro** | Desenvolvimento Backend e Integração de IA | [LinkedIN](https://www.linkedin.com/in/victoralbucorde/) |
 | **Gabriel Paiva** | Desenvolvimento Frontend e Modelagem do Sistema | [LinkedIN](https://www.linkedin.com/in/gabriel-navarro-paiva-901662299/) |
