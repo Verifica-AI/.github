@@ -1,81 +1,104 @@
-# Verifica.AI
+# Verifica.AI — Organização para o desenvolvimento de uma Ferramenta de Detecção de Fake News no contexto político brasileiro durante a matéria Projeto Integrador II no CEUB.
 
-Equipe dedicada a facilitar a detecção de **_fake news_ políticas**.  
-Nosso objetivo atual é construir uma solução capaz de analisar e classificar conteúdos digitais, promovendo um ambiente informacional mais seguro e confiável.
+## Problema
 
----
-
-## 📌 Sobre
-
-O projeto atual da Verifica.AI tem como foco principal:
-
-- Combater a desinformação, mitigando o impacto de **_fake news_ políticas**.
-- A criação de um **sistema inteligente de detecção de fake news** baseado em IA.   
-- A implementação de uma **plataforma web** que permita o envio de textos e arquivos para análise automatizada.  
-- A disponibilização de relatórios transparentes e acessíveis sobre a veracidade das informações.  
+A desinformação digital é um dos maiores desafios da atualidade.  
+Com o avanço das redes sociais e das inteligências artificiais generativas, notícias falsas são produzidas e disseminadas em grande escala, influenciando decisões políticas e sociais.
+Durante as eleições e crises sanitárias, como a pandemia de COVID-19, observou-se um crescimento alarmante na circulação de **fake news**.  
+No Brasil, cerca de **80% dos usuários afirmam querer ferramentas que ajudem a verificar a veracidade de informações** (Avaaz, 2020).
 
 ---
 
-## 🎯 Por que este projeto?
+## Objetivos
 
-A desinformação digital é um dos maiores desafios contemporâneos. Notícias falsas podem influenciar decisões sociais, políticas e econômicas de forma negativa. Por isso, o Verifica.AI busca:
+### Objetivo Geral
+Desenvolver uma **aplicação web baseada em inteligência artificial** capaz de **detectar e classificar notícias falsas** relacionadas à política brasileira,  
+proporcionando aos usuários uma ferramenta confiável para combate à desinformação e fortalecimento da credibilidade das informações online.
 
-- **Combater a disseminação de fake news** em larga escala.  
-- **Oferecer uma ferramenta confiável e acessível** para cidadãos, jornalistas, educadores e empresas.  
-- **Garantir transparência e explicabilidade** nos resultados, ajudando os usuários a compreenderem os sinais de desinformação.  
-- **Contribuir para um ambiente digital mais informado**, fortalecendo a confiança nas informações consumidas.  
-
----
-
-## 🌍 Onde o projeto está sendo desenvolvido?
-
-O desenvolvimento do Verifica.AI será realizado nos seguintes ambientes e ferramentas:
-
-- **Ambiente Web**: Aplicação disponível para acesso via navegadores modernos (Chrome, Firefox, Safari, Edge).  
-- **Linguagem e Frameworks**:  
-  - **Python (Django + Django REST Framework)**: Backend e API RESTful.  
-  - **React (HTML/CSS/JS)**: Frontend responsivo e interativo.  
-  - **TensorFlow**: Treinamento e execução do modelo de IA para detecção de fake news.  
-- **Banco de Dados**:  
-  - **MongoDB + MongoDB Atlas** para armazenamento seguro e escalável.  
-- **Ferramentas de Teste**:  
-  - **Postman** (testes de API).  
-- **Gestão de Tarefas**:  
-  - **Kanban Ágil** para acompanhamento do desenvolvimento.  
+### Objetivos Específicos
+- Implementar uma **análise automatizada de textos** para verificação de veracidade;  
+- Aplicar técnicas de **machine learning** e **processamento de linguagem natural (NLP)** para detectar padrões de desinformação;  
+- Desenvolver uma interface web responsiva e acessível que permita o envio e análise de notícias;  
+- Fornecer **relatórios explicativos** sobre os resultados das análises, incluindo fontes de verificação;  
+- Armazenar o histórico de análises de forma segura, permitindo rastreabilidade;  
+- Garantir a **transparência** e a **usabilidade** da ferramenta para usuários sem conhecimento técnico.
 
 ---
 
-## 👥 Equipe
+## Escopo
 
-A equipe é formada por 2 desenvolvedores:
+O **Verifica.Al** permite que o usuário envie uma notícia (texto ou arquivo) para análise.  
+O sistema processa o conteúdo por meio de um modelo de IA, retornando:
 
-- Gabriel Antonio Navarro Paiva  
-- Victor Albuquerque Cordeiro  
+- Grau de confiabilidade do texto;  
+- Referências externas de fontes confiáveis;  
+- Relatório sobre a veracidade;  
 
----
-
-## 🗓️ Cronograma
-
-- **Status atual:** Validação da documentação.  
-
----
-
-## 📬 Contato
-
-Para dúvidas, colaborações ou sugestões, entre em contato com os coordenadores do projeto:
-
-- Gabriel Antonio Navarro Paiva – [gabrielanpaiva2005@gmail.com](mailto:gabrielanpaiva2005@gmail.com)  
-- Victor Albuquerque Cordeiro – [victoralbucorde@gmail.com](mailto:victoralbucorde@gmail.com)  
+### Limitações Iniciais
+- Apenas entrada de texto;  
+- Limite de caracteres e de análises diárias.
 
 ---
 
-## 📅 Quando serão feitas as entregas principais?
+## Solução Proposta
 
-- **Dezembro de 2026**:  
-  Entrega da versão **executável** da plataforma, acompanhada da **documentação técnica** e do **manual do usuário**.  
+A ferramenta utiliza um **Modelo de Linguagem de Grande Escala (LLM)** ajustado especificamente para o domínio político.  
+
+### Arquitetura do Sistema
+- **Backend:** Django + Django REST Framework  
+- **Frontend:** React  
+- **Banco de Dados:** MongoDB Atlas  
+- **Hospedagem:** Nuvem (AWS / Google Cloud / Azure)  
+- **Autenticação:** JSON Web Token (JWT)
+
+O modelo de IA é responsável por analisar textos, identificar padrões de desinformação e classificar conteúdos com base em critérios estatísticos e semânticos.
 
 ---
 
-## 📚 Palavras-chave
+## Equipe
 
-Fake News · Inteligência Artificial · Machine Learning · NLP · Verificação de Informações · Django · React · TensorFlow · MongoDB
+| Nome | Função | LinkedIN |
+|------|--------|------------|
+| **Victor Albuquerque Cordeiro** | Desenvolvimento Backend e Integração de IA | [LinkedIN](https://www.linkedin.com/in/victoralbucorde/) |
+| **Gabriel Paiva** | Desenvolvimento Frontend e Modelagem do Sistema | [LinkedIN](https://www.linkedin.com/in/gabriel-navarro-paiva-901662299/) |
+
+**Orientação:** Profª Kadidja Valéria  
+**Curso:** Ciência da Computação — CEUB  
+**Disciplina:** Projeto Integrador II  
+
+---
+
+## Público-Alvo
+
+A aplicação é voltada para todos que necessitam validar informações de forma prática e confiável:
+
+- Cidadãos interessados em checar notícias;  
+- Jornalistas e comunicadores;  
+- Estudantes e pesquisadores;
+  
+Esses usuários compartilham o mesmo objetivo: **verificar rapidamente a autenticidade de conteúdos digitais** e reduzir a disseminação de desinformação.
+
+---
+
+## Tecnologias Principais
+
+- **Frontend:** React, HTML, CSS, JavaScript  
+- **Backend:** Python, Django
+- **IA / Machine Learning:** TensorFlow/Pytorch  
+- **Banco de Dados:** MongoDB (Atlas)  
+- **Autenticação:** JWT  
+- **Testes:** Postman  
+- **Metodologia:** Kanban (Trello)
+
+---
+
+## Licença
+
+Este projeto é desenvolvido para fins acadêmicos e de pesquisa no âmbito do **Projeto Integrador II — CEUB**,  
+com propósito educacional e de impacto social.
+
+---
+
+## Referências
+
+AVAAZ. O Brasil está sofrendo uma infodemia de Covid-19. 4 de maio de 2020. Disponível em: https://avaazimages.avaaz.org/brasil_infodemia_coronavirus.pdf. Acesso em: 23 set. 2025.
