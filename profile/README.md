@@ -25,6 +25,27 @@ proporcionando aos usuários uma ferramenta confiável para combate à desinform
 
 ---
 
+## Stakeholders
+
+O sucesso do Verifica.AI depende da colaboração entre especialistas técnicos, profissionais da comunicação e usuários finais.  
+Foram definidos **três pilares principais de stakeholders**:
+
+1. **Supervisão Acadêmica e Técnica**  
+   - **Profª Kadidja Valéria** (orientadora)  
+   Responsável por validar a metodologia científica, a arquitetura técnica e o alinhamento do projeto com os objetivos acadêmicos.
+
+2. **Especialista em Comunicação e Jornalismo (Coordenador do Curso de Jornalismo - CEUB)**  
+   - Valida a **eficácia da detecção de fake news** e a **relevância prática** da ferramenta.  
+   Garante que os critérios de veracidade e a análise de conteúdo estejam adequados ao contexto jornalístico.
+
+3. **Usuários Finais — Alunos de Jornalismo do CEUB**  
+   - Testam a **usabilidade** e a **experiência do usuário (UX/UI)**.  
+   Oferecem feedback sobre clareza, interface e utilidade da aplicação no processo de verificação de fatos.
+
+Essa integração interdisciplinar entre **Ciência da Computação** e **Jornalismo** assegura que o Verifica.AI seja tecnicamente robusto, socialmente relevante e acessível.
+
+---
+
 ## Escopo
 
 O **Verifica.Al** permite que o usuário envie uma notícia (texto ou arquivo) para análise.  
