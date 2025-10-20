@@ -1,4 +1,4 @@
-# Verifica.AI — Organização criada durante a matéria Projeto Integrador II no CEUB para o desenvolvimento de uma Ferramenta de Detecção de Fake News no contexto político brasileiro.
+# Verifica.AI — Ferramenta de Detecção de Fake News no contexto político brasileiro.
 
 ## Problema
 
